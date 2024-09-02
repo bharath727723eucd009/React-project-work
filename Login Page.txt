@@ -1,0 +1,29 @@
+Login Page
+
+
+import React from "react";
+
+function Login() {
+  return (
+    <div style={{ backgroundColor: '#A3876A', padding: '40px', borderRadius: '10px', height:'390px',width: '340px', margin: '50px auto', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.3)' }}>
+      <header>
+        <h3 style={{ color: '#ffffff', textAlign: 'center', fontSize: '24px', marginBottom: '20px' }}>
+          LOGIN
+        </h3>
+      </header>
+      <form>
+        <div style={{ marginBottom: '15px' }}>
+          <label style={{display:'block',marginBottom: '20px', color: '#333' , fontweight: 'Bold'}}>Email:</label>
+          <input type="text" placeholder="Enter your Mail Id" style={{ width: '90%', padding: '20px', borderRadius: '5px', border: '1px solid #ccc' }} />
+        </div>
+        <div style={{ marginBottom: '20px' }}>
+          <label style={{ display: 'block', marginBottom: '20px', color: '#333' }}>Password:</label>
+          <input type="password" placeholder="Enter your Password" style={{ width: '90%', padding: '20px', borderRadius: '5px', border: '1px solid #ccc' }} />
+        </div>
+        <button style={{ marginleft: '20px' , backgroundColor: '#FFFFE0', color: '#000000', padding: '10px', border: '2px solid black', borderRadius: '5px', cursor: 'pointer', width: '100%', fontSize: '16px'}}>Submit</button>
+      </form>
+    </div>
+  )
+}
+
+export default Login;
