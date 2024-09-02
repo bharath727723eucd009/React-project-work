@@ -1,0 +1,67 @@
+day 1 cw
+import React from 'react';
+function display(){
+    alert("Message from Javascript alert!");
+    console.log("Message to developer");
+}
+const Firstd1c1 = () => {
+    return(
+        <div>
+        
+        <h1>Let we see the output of JAVASCRIPT</h1>
+        <br></br>
+        <button onClick={display}>click</button>
+        </div>
+    );
+};
+export default Firstd1c1;  
+
+
+
+
+
+
+import React from 'react';
+
+const Firstd1c2 = () => {
+    const display = () => {
+        let myobject = {name:'Madras'};
+        let newObject = myobject;
+        newObject.name = 'Chennai';
+
+        let myarray = ['a', 'e', 'i', 'o'];
+        let vowelArray = myarray;
+        myarray.push('u');
+
+        alert("Check the console output!");
+
+        console.log(vowelArray);
+    };
+    
+    return (
+        <>
+            <button onClick={display}>Click me!</button>
+        </>
+    );
+};
+
+export default Firstd1c2;
+
+
+
+
+
+
+import React from "react";
+
+const Firstd1c3 = () => {
+    return (
+
+     <div>
+        <p>This is World Functional Component</p>
+    </div>
+    );
+};
+export default Firstd1c3;
+
+
